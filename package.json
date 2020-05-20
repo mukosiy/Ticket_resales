@@ -1,0 +1,35 @@
+{
+  "name": "create-next-app-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./db-test.js && next",
+    "build": "node ./db-test.js  && next build",
+    "start": "NODE_ENV=production next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.53",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "dotenv": "^8.2.0",
+    "formidable": "^1.2.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "next": "^9.4.0",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.6",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sendgrid": "^5.2.3",
+    "sqlite": "3"
+  },
+  "devDependencies": {}
+}
